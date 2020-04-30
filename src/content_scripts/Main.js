@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
+import Timer from './Timer'
 import Footer from './Footer'
 
 export default class Main extends Component {
     render() {
-        const { query } = this.props
+        const { time, args } = this.props
         return (
             <div className="widget-container" style={styles.main}>
-                {/* put widget content here */}
-                <p className="widget-result"> {query} </p>
+                <Timer time={time} args={args} />
                 <Footer />
             </div>
         )
@@ -16,6 +16,6 @@ export default class Main extends Component {
 
 const styles = {
     main: {
-        padding: '30px 20px'
+        padding: '0'
     }
 }
