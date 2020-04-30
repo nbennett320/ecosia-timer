@@ -1,4 +1,5 @@
-![a picture of my example plugin](./screenshots/1.png)
+![a picture of the timer](./screenshots/1.png)
+![a picture of the time-up view](./screenshots/2.png)
 ## ecosia-plugin-react
 **An easy to use tool that makes planting trees even easier**
 
